@@ -90,18 +90,6 @@ export function Homepage() {
             description="Use POST /api/webhooks/:id/:token/queue, to automatically queue requests."
           />
         </div>
-
-        <div className="flex flex-col items-center space-y-4">
-          <a
-            href="https://vercel.com/new/clone?repository-url=https://github.com/star-ot/simple-discord-webhooks-proxy"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center px-6 py-3 bg-black text-white rounded-full font-semibold hover:bg-gray-800 transition-colors"
-          >
-            <Triangle className="w-4 h-4 mr-2 fill-current" />
-            Deploy on Vercel
-          </a>
-        </div>
       </div>
     </div>
   )
